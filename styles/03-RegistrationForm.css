@@ -1,0 +1,121 @@
+body{
+    background-color: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper, header{
+
+    margin: 0 auto;
+    width:747px;
+}
+h1{
+    color: #333333;
+    width: 526px;
+}
+form, #aside {
+    display: inline-block;
+}
+form, h1{
+    width:526px;
+    vertical-align: top;
+}
+
+#aside{
+    width: 211px;
+}
+
+legend{
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    background-color: #666666;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+#personal{
+    width: 110px;
+}
+
+fieldset{
+    border: 1px dashed #CCCCCC;
+}
+
+#second{
+    margin-top: 10px;
+}
+
+fieldset label{
+    font-weight: bold;
+    display: inline-block;
+    width:130px;
+    height: 40px;
+    color: #666666;
+    background-color: #CCCCCC;
+    line-height: 40px;
+    padding-left: 5px;
+
+   }
+
+.grey, .white{
+    display: inline-block;
+    width: 343px;
+    height: 40px;
+    margin: 3px;
+
+}
+.grey{
+    background-color: #E6E6E6;
+}
+.white{
+    background-color: #FFFFFF;
+    float: right;
+    border: 1px solid #CCCCCC;
+}
+
+input{
+    font-weight: bold;
+    font-size: 15px;
+    width: 300px;
+    height: 26px;
+    margin: 5px;
+    padding-left: 30px;
+}
+input[type="text"]:active{
+    background-color: #F7F5D2;
+}
+input:hover{
+    background: #F7F5D2;
+}
+
+button{
+    width: 74px;
+    height: 27px;
+    background-color: #E3E3DB;
+    color: #989070;
+    margin-left: 250px;
+    margin-top: 7px;
+}
+
+#aside{
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#text{
+    background: url("../images/username-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+#pass{
+    background: url("../images/password-icon.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+.field-icon{
+    background: url("../images/field-icon.png") no-repeat;
+    background-position: 6px 6px;
+}

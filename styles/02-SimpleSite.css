@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Patua One'), local('PatuaOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/patuaone/v4/yAXhog6uK3bd3OwBILv_SD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+ body{
+     font-family: Georgia;
+ }
+
+#wrapper{
+    width: 940px;
+    margin:0 auto;
+}
+
+header{
+    text-align: center;
+    width: 564px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-family: "Patua One";
+    font-size: 45px;
+    margin: 0;
+    color:#444444;
+    background: url("../images/site-logo.png") no-repeat;
+    background-position: 100px 5px;
+    background-size: 45px;
+}
+
+header p{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 12px;
+    margin: 5px;
+    margin-bottom: 20px;
+    color: #666666;
+}
+nav{
+   border-top: 1px dashed #AAAAAA;
+    border-bottom: 1px dashed #AAAAAA;
+}
+header ul{
+    margin: 0;
+}
+header ul li{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+}
+ul li:hover{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+ul li a{
+    color: #9999A5;
+    text-decoration: none;
+
+}
+img{
+    margin-top: 30px;
+}
+
+main, aside{
+    display: inline-block;
+    height: 400px;
+}
+main{
+    width: 720px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+aside{
+    width: 215px;
+    font-size: 14px;
+}
+
+#first-article > div{
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    color: #666666;
+    border-top: 1px dashed #AAAAAA;
+    border-bottom: 1px dashed #AAAAAA;
+
+}
+
+form, aside>div {
+    background-color: #F9F9F9;
+    border: 1px dashed #AAAAAA;
+    margin-top:10px;
+    padding: 15px;
+}
+input{
+    width:105px;
+
+}
+button{
+    width: 55px;
+}
+
+h3{
+    color: #666666;
+}
+
+.aside{
+    list-style-type: none;
+    padding: 0;
+}
+
+.aside li a{
+    color:#5566CC;
+}
+.aside li a:hover{
+    color:red;
+    background: none;
+   }
+
+footer{
+    display: block;
+    color: #666666;
+    line-height: 37px;
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 40px;
+    border: 1px solid #AAAAAA;
+}
